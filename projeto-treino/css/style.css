@@ -1,0 +1,508 @@
+ 
+ *{
+ 	margin: 0;
+ 	padding: 0;
+
+ }
+ 
+ body{
+ 	   max-width: 1920px;
+     height: 960px;
+    justify-content: center;
+  	margin: auto;
+    font-family: 'Ubunto', sans-serif;
+    position: absolute;
+ }
+ 
+
+ /*/header e menu/*/
+ .bg-top{
+  
+  background:rgb(0,0,0);
+  opacity: 70%;
+width:1920px;
+     
+ }
+   .container-m{
+    
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    margin:10px;
+    background-image: url(../images/images/img-bg-top.png);
+    background-repeat: no-repeat;
+    height:90%;
+    width: auto;
+   
+  
+  }
+  .menu{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    background-image: url(../images/images/images/img-top_05.png);
+   text-align: right;
+    background-repeat:no-repeat;
+    background-position: right;
+    padding: 10px;
+    margin:10px;
+    margin-left: 1400px;
+    list-style: none;
+  }
+.logo{
+  color: white;
+}
+ .sessao-01  {
+ 	display: grid;
+ 	grid-template-rows: auto  ;
+ 	grid-template-columns: 45% 60%;
+  padding: 100px;
+ grid-column-gap:37px;
+  margin:0;
+ font-size: 15pt;
+ font-weight: 600;
+ color: #808080;
+ text-align: left;
+
+
+  }
+.p1{
+   line-height: 40px;
+   text-align: justify;
+   width: 70%;
+ }
+
+ .img1-s1{
+  margin: auto;
+ 	margin-left:200px;
+  width: 100%;
+  height: 384px;
+  width :490px;
+ } 
+ h1{
+ 	font-size:70pt;
+ 	color: #808080;
+ 	font-weight: 300;
+}
+ 
+ 
+ .sessao-02{
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 50% 50%;
+   margin-bottom: 0;
+   margin-left: 200px;
+   font-family: 'Ubunto', sans-serif;
+ 
+
+
+ }
+ .h2{
+  background-color: black;
+  color: white;
+
+
+
+
+ }
+ .p3{
+  text-align: left;
+  width: 88%;
+  color: white;
+ margin-top: 30px;
+ font-size:20pt; 
+
+ }
+ .p-02{
+  text-align: justify;
+  width: 89%;
+  font-size: 20pt;
+  padding-top: 10px;
+
+ }
+h2{
+  text-align: center;
+  font-size: 102pt;
+  font-weight: 300;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+
+}
+button{
+	margin:30px;
+	padding: 20px;
+	border: solid 3px white;
+	background-color: black;
+	color: white;
+  text-align: left;
+ 
+}
+.btn{
+ margin: auto;
+ 
+}
+.sessao-03{
+	display: grid;
+	grid-template-rows:auto   ;
+	grid-template-columns:50% 50%;
+	align-content: center;
+	 align-items: center; 
+    margin-bottom: 0px;
+   grid-column-gap:140px;
+  width: 100%
+  margin-top: 0px;
+
+
+ }
+.h1-s3{
+	font-size: 78px;
+	font-weight: 300;
+  color: #808080;
+  margin-left: 300px;
+
+
+}
+.p-s3{
+ 
+	font-size: 20px;
+	width: 80%;
+	color: #808080;
+  font-weight: 600;
+   margin-left: 300px;
+   line-height:  30px;
+   
+}
+.img-sessao-03{
+  width: 85%;
+  height: 100%;
+  margin: 0;
+
+}
+.p-s4{
+ color: #808080;
+  font-size: 19px;
+   margin-left: 300px;
+    font-weight: 600;
+
+   
+    }
+ .parceiros{
+ 	text-align: center;
+font-size: 78px;
+background-color: black;
+color: white;
+ padding-top: 55px;
+ padding-bottom: 30px;
+ font-weight: 300;
+
+ }
+ .p-parceiros{
+  font-size: 18px;
+  background-color: black;
+  color:white;
+  text-align: center;
+  font-weight: 300;
+
+ 
+
+ }
+.seta{
+  display: grid; 
+  margin-left: 29%;
+  align-items: center;
+  position: relative;
+  bottom: 22px;
+
+
+
+ 
+      
+
+ }
+ .sessao-04{
+ 	display: grid;
+ 	grid-template-rows: auto auto auto  ;
+ 	 grid-template-columns:  auto auto auto;
+ 	 align-items: center;
+ 	 background-color: black;
+ 	 color: white;
+   margin: 0;
+   padding: 100px;
+  
+ }
+ 
+ 
+ .sub-s4{
+  text-align: center;
+  background-color: black;
+  color: white;
+
+ }
+ .sub-s4-p{
+  font-size: 38px;
+  
+ }
+ 
+
+ h6{
+ 	font-size: 15px;
+ 	font-weight: 300;
+
+ }
+ 
+ .sub-s4-p2{
+  font-size: 20px;
+  padding: 30px;
+  }
+ 
+
+ /*/Principais serviços/*/
+ .sessao-05{
+  display: grid;
+  grid-template-rows:auto;
+  grid-template-columns:50% 50%;
+  grid-column-gap: 0%;
+  justify-content: center;
+  margin-top: 150px;
+  width: 80%;
+ margin-left: 133px;
+ }
+ h4{
+  font-size: 78px;
+    color: #4F4F4F;
+    font-weight: 100;
+      color:  #696969; 
+ }
+ .img-s5{
+  width: 625px;
+ }
+ .h4{
+  font-size: 22px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  color: #58595B;
+  font-weight: 600;
+  font-weight: 100;
+
+
+ }
+ .p{
+  font-size: 15px;
+  font-weight: bold;
+ font-family: 'Ubunto', sans-serif;
+color: #58595B;
+font-weight: bold;
+
+}
+ul{
+  font-size: 16px;
+ font-family: 'Ubunto', sans-serif;
+ color:   #58595B;
+ font-weight: bolder;
+ margin: 10px;
+ }
+.sessao-06{
+  display: grid;
+  grid-template-rows: auto auto ;
+  grid-template-columns: auto;
+  text-align: center;
+  color:#808080;
+  margin-bottom: 100pt;
+  font-size: 18pt;
+  margin: 200px;
+
+}
+.p6{
+  font-size: 78px;
+  color:#808080;
+
+ }
+ .p2-s6{
+   color:#808080;
+   font-size: 14pt;
+ }
+ .form1{
+
+   display: grid;
+   grid-template-rows: auto auto auto;
+   grid-template-columns: 50% auto ;
+   justify-content: center;
+   width: 105%;
+   font-size: 12px;
+align-items: center;
+
+ }
+ .input1{
+  padding: 32px;
+   color:#808080;
+   border: solid #808080; 
+ 
+ }
+
+ .sessao-07{
+  display: grid;
+  grid-template-rows: auto  auto;
+  grid-template-columns: 50% 50%;
+  color: white;
+   background-color: black;
+   width: 60%;
+    margin-left: 300pt;
+
+
+ }
+.container-07{
+    color: white;
+   background-color: black;
+   text-align: center;
+   font-size: 20pt;
+   padding: 150px;
+}
+.p1-s7{
+  font-size: 18px;
+}
+.container-p{
+  font-size: 100pt;
+}
+.sessao-08{
+  font-size: 12pt;
+   color:#808080;
+   text-align: center;
+   font-weight: 600;
+
+}
+.s8h1{
+  font-size: 78pt;
+  font-weight: 400;
+   color:#696969;
+}
+
+.padding{
+  padding: 20px;
+  font-size: 16pt;
+   color:#808080;
+   text-align: center;
+  margin: 8pt;
+  font-weight: 700;
+
+}
+textarea{
+  height: 150pt;
+
+}
+#btn{
+  padding: 30px;
+   background-color: black;
+  color: white;
+
+}
+
+ .sub-sessao-08{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto  ; 
+  grid-template-columns: auto ;
+  width: 770px;
+  margin: auto;
+  font-weight: 700;
+
+
+
+ }
+.sessao-09{
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 200px;
+ grid-row-gap: 50px  ;
+ grid-row-columns: 10%;
+   
+}
+.sub-sessao-09{
+  display: grid;
+  grid-template-rows: auto ; 
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 50px  ;
+  grid-row-columns: 10%;
+    grid-column-gap: 50px;
+  
+   
+}
+.sub-sessao-09-02{
+display: grid;
+grid-template-rows: auto;
+grid-template-columns: auto auto auto;
+margin-left: 300px;
+ 
+ }
+ .sub-sessao-09-03{
+  display:  grid;
+  grid-template-rows:auto;  
+  grid-template-columns: 50% 50%;
+  margin-left: 450px;
+  padding: 50px;
+    padding: 30px;
+ 
+ }
+.container{
+  justify-content:  center; 
+  background-color: black;
+  padding: 80pt;
+
+
+
+}
+  
+.sub-h6{
+  text-align:center;
+  background-color: black; 
+  color: white;
+  font-size: 88px; 
+    padding-top: 30px;
+    margin: 20px;
+    
+}
+/*/FOOTER/*/
+.footer{
+  text-align: center;
+  font-size: 78px;
+  color: #808080;
+  align-items: center;  
+   font-family: 'Ubunto', sans-serif;
+   padding: 100px;
+
+}
+.h6{
+  font-size: 78px;
+   font-family: 'Ubunto', sans-serif;
+   height: 40%;
+}
+.sessao-10{
+  display:  grid;
+  grid-template-rows: auto ;
+  grid-template-columns: 55px 55px 55px 55px ;
+  align-items: center;
+  align-content: center;
+  margin-left: 717px;
+
+  font-family: 'Ubunto', sans-serif;
+
+
+  
+
+}
+.descriçao2{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  font-size: 16px;
+  color: #808080;
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
+ 
+ 
+}
+ 
